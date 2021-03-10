@@ -1,0 +1,27 @@
+{
+    "name": "mmskazak/say-hello",
+    "description": "Testing package",
+    "authors": [
+        {
+            "name": "mmskazak",
+            "email": "mmskazak@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.2"
+    },
+    "repositories": [
+        {
+        "type": "vcs",
+        "url": "git@github.com:mmskazak/test_package.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mmskazak\\SayHello\\": "src/"
+        }
+    }
+}
