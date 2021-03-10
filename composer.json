@@ -17,5 +17,10 @@
         "psr-4": {
             "mmskazak\\SayHello\\": "src/"
         }
-    }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }    
 }
